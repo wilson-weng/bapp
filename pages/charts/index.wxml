@@ -1,0 +1,11 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="info-bar">项目收支趋势</view>
+  <view class="chart-card">
+    <ec-canvas wx:show="{{isReady}}" id="revenue-chart" canvas-id="revenue-chart-canvas" ec="{{ ec }}"></ec-canvas>
+  </view>
+  <view class="info-bar">人效达成趋势</view>
+  <view class="chart-card">
+    <ec-canvas wx:show="{{isReady}}" id="efficiency-chart" canvas-id="efficiency-chart-canvas" ec="{{ ec }}"></ec-canvas>
+  </view>
+</view>

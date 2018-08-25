@@ -1,0 +1,25 @@
+/**app.wxss**/
+@import './styles/app.wxss';
+
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.inline-block{
+  display: inline-block;
+}
+
+.m-r-1{
+  margin-right: 16rpx;
+}
+.m-r-2{
+  margin-right: 32rpx;
+}
+.m-r-3{
+  margin-right: 48rpx;
+}

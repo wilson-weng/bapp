@@ -1,0 +1,15 @@
+<!--index.wxml-->
+<view>
+  <van-cell-group>
+    <van-cell is-link wx:for="{{projs}}" wx:key="{{item.id}}" style="background-color: #f5f7fa;" bindtap="enterProj" data-proj="{{item}}">
+      <view slot="title" style="width: 100%;">
+        <view class="circle-img">
+          <image mode="left" style="width: 100%; height: 100%;" src="{{item.proj_thumbnail}}"/>
+        </view>
+        <view>{{item.proj_name}}</view>
+        <van-tag custom-class="m-r-1" plain >人数： {{item.crew_num}}人</van-tag>
+        <van-tag plain>本月收入： {{item.month_cumulate_revenue}}元</van-tag>
+      </view>
+    </van-cell>
+  </van-cell-group>
+</view>

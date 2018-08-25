@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "项目列表",
+  "usingComponents": {
+    "van-cell": "../../components/van/cell/index",
+    "van-cell-group": "../../components/van/cell-group/index",
+    "van-tag": "../../components/van/tag/index"
+  }
+}
